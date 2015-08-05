@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   get 'static_pages/help'
   get 'static_pages/about'
 
+  # get 'something/blah', :to => 'static_pages#help'
+  # above line of code is something Mike Seargent taught me. Also from Mike I reinforced more clearly the that 'static_pages' points a route towards that static pages controller and that the '/stuff after' points to the action inside the controller. 
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
